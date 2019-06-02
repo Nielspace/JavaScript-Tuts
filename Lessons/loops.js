@@ -81,3 +81,17 @@ console.log('the total is ' + total)
 console.log('the mean is ' + (total/age.length))
 
 
+let list1 = [1,2,3,10,6,7];
+
+for (let i = 0; i < list1.length; i++) {
+    console.log(list1[i]);
+    
+}
+
+let list2 = ['Apple', 'banana', 'cucumber', 'dates', 'eggplant'];
+
+for (let i = 0; i < list2.length; i++) {
+    console.log(i + ' : ' + list2[i]);
+    
+}
+
