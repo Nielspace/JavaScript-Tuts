@@ -15,4 +15,19 @@ mean([1,2,3])
 
 
 
-// chart.js
+
+
+let average = function(list){
+
+    total = 0;
+    for (i=0;
+        i<list.length;
+        i++){
+            console.log(list[i]);
+            total = total + list[i];
+        }
+
+    console.log("the average is " + (total/list.length))
+}
+
+average([1,2,3,4,5])

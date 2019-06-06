@@ -95,3 +95,28 @@ for (let i = 0; i < list2.length; i++) {
     
 }
 
+var number1 = [1,2,3,4,5,6,7,8,9];
+
+var o = 0;
+
+for (let i = 0; i < number1.length; i++) {
+    console.log(number1[i]);
+    o = o+number1[i]
+    
+}
+
+console.log('the average is \n' + (o/number1.length))
+
+
+dataFrame = {
+    "Name" : "iris",
+    "age" : 23,
+    "occupation" : "boring"
+}
+
+for (data in dataFrame){
+    console.log(data +' : '+ dataFrame[data])
+}
+
+
+console.log(dataFrame['Name'])
