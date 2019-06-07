@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Storing
+    </title>
+</head>
+<body>
+    <!-- <h1>Matter</h1>
+    <div id="title">Greetings
+        <span id="name">friend</span>
+    </div>
+    <div class="note">Take a look around</div>
+    <script>
+        var username;
+        var message;
+        username = 'Molly';
+        message = "See our upcoming range"
+
+        var elName = document.getElementById('name');
+        elName.textContent = username;
+        var elNote = document.getElementById('note');
+        elNote.textContent = message;
+    </script> -->
+
+
+    <form id="enter"> <input name="name" placeholder="Enter your name">
+        </form>
+
+        <button onclick="outputname()">Submit</button>
+    
+    <script>
+        function outputname() {
+        var x,y,name;
+        x=document.getElementById("enter") ;
+        y=x.elements["name"].value;
+        document.getElementById("demo").innerHTML="Hello "+y+"<br>";
+        document.getElementById("demo").innerHTML+=y + " Nice to see you! <br>";
+            
+        }
+
+    </script>
+
+    <p id="demo"></p>
+
+    
+</body>
+</html>
