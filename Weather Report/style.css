@@ -1,0 +1,7 @@
+body{
+    background-color: white;
+    color : white;
+    background-image: url('img/haze.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
